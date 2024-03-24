@@ -181,9 +181,9 @@ try:
     if so2_input and no2_input and rspm_input and spm_input:
         if submit:
             with open(r"model.pkl", "rb") as f:
-                model = pickle.load(f)
+                model_data = pickle.load(f)
 
-            aqi = float(model.predict([[soi, ni, rpi, spi]]))
+            aqi = float(model_data.predict([[soi, ni, rpi, spi]]))
 
             quality = Aqi_analysis(aqi)
 

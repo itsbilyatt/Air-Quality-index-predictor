@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.page_link(r'Air-Quality-index-predictor/pages/homepage.py', label="Home", icon="🏠")
+st.page_link(r'air-quality-index-predictor/pages/homepage.py', label="Home", icon="🏠")

@@ -36,7 +36,7 @@ if start_button:
     try:
 
         st.page_link(
-            st.page_link(r'pages\main_page.py', label="Main Page", icon="🌎")
+            st.page_link(r'\main_page.py', label="Main Page", icon="🌎")
         )
     except:
         st.markdown(
